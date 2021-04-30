@@ -1,0 +1,205 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <link rel="stylesheet" type="text/css" href="login.css">    
+</head>    
+<body>  
+      <style>
+        body  
+        {  
+            margin: 0;  
+            padding: 0;  
+            background-color:#6abadeba;  
+            font-family: 'Arial';  
+        }  
+        .login{  
+                width: 382px;  
+                overflow: hidden;  
+                margin: auto;  
+                margin: 20 0 0 450px;  
+                padding: 80px;  
+                background: #85c2b6;  
+                border-radius: 15px ;  
+                  
+        }  
+        h2{  
+            text-align: center;  
+            color: #2511dd;  
+            padding: 20px;  
+        }  
+        label{  
+            color: #e0122e;  
+            font-size: 17px;  
+        }  
+        #Uname{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+        }  
+        #Pass{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 3px;  
+            padding-left: 8px;  
+              
+        }  
+        #log{  
+            width: 300px;  
+            height: 30px;  
+            border: none;  
+            border-radius: 17px;  
+            padding-left: 7px;  
+            color: black;  
+          
+          
+        }  
+        span{  
+            color: white;  
+            font-size: 17px;  
+        }  
+        a{  
+            float: right;  
+            background-color: grey;  
+        }  
+      </style>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="css/flowershop.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body id="page-top" class="index">
+		<!--top navigation-->
+		 <div class="container">
+        <div class="row ">
+                    <div class="col-md-2 col-xs-2 top-menu">
+                        <a href="registration.html">Registration</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2 top-menu">
+                        <a href="login.html"><span style="text-align:center">Login</span></a>
+                    </div>
+                    <div class="col-md-2 col-xs-2 top-menu">
+                        <a href="delivery.html">Delivery</a>
+                    </div>
+                    <div class="col-md-2 col-xs-2 top-menu">
+                        <a href="checkout.html">Checkout</a>
+                    </div>
+                    <!---<div class="col-md-1">
+                        <a href="registration.html">My account</a>
+                    </div>-->
+                    <div class="col-md-1 col-xs-1 top-menu">
+                        <a href="registration.html" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Cart is empty"><span class="glyphicon glyphicon-shopping-cart" ></span></a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 top-menu">
+                        <form class="form-search-header form-inline">
+                            <label class="sr-only" for="exampleInputsearch">Search</label>
+                            <input type="text" class="form-control" id="exampleInputsearch" placeholder="Search" style="width:175px;float: left;"/>
+                            <button type="submit" class="form-control" id="exampleInputgo" style="width: 35px">Go</button>
+                        
+                        
+                        
+                        </form>
+                    
+                    </div><!-- end of col-->
+    
+                    
+    </div><!--end of row-->
+    
+    </div><!-- end of container-->
+                
+   
+	
+	<!--end of top navigation-->
+    <!---Navigation--->
+        <nav id="mainNav" class="navbar navbar-default navbar-custom">
+            <div class="container">
+                <!--brand and toggle for better mobile display-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>Menu<i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Indian Flowers</a>
+                    
+                </div>
+                <!--list of menu items-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll current-page-item"><a href="index.html">Home</a>
+                    </li>
+                    <li class="page-scroll dropdown">
+                        <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">About Us<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-custom">
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        
+                                    
+                        </ul><!---end of dropdown menu-->
+                    
+                        
+                    </li>
+                    <li class="page-scroll dropdown ">
+                        <a href="#" class="dropdown-toggle"  role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Catalog<span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-custom">
+                        <li><a href="special.html">Today's Special</a></li>
+                        
+                    
+                        
+                        </ul><!---end of dropdown menu-->
+                                
+                    </li><!--end of class dropdown-->
+                    <li class="page-scroll dropdown">
+                        <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Occasion<span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-custom">
+                            <li><a href="anniversary.html">Anniversary</a></li>
+                        <li><a href="congratulations.html">Congratulations</a></li>
+                            <li><a href="birthdays.html">Birthdays</a></li>
+                            
+                        
+                        </ul>
+                    </li>
+                        
+                        
+                        <li class="page-scroll">
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            
+            </div>
+            
+    </nav>
+        
+        <h2>Login Page</h2><br>    
+        <div class="login">    
+        <form id="login" method="get" action="login.php">    
+            <label><b>User Name     
+            </b>    
+            </label>    
+            <input type="text" name="Uname" id="Username" placeholder="Username">    
+            <br><br>    
+            <label><b>Password     
+            </b>    
+            </label>    
+            <input type="Password" name="Password" id="Password" placeholder="Password">    
+            <br><br>    
+            <a href="index.html"><input type="button" name="log" id="log" value="Login "> </a>
+                  
+            <br><br>    
+            <input type="checkbox" id="checkbox">    
+            <span>Remember me</span>    
+            <br><br>    
+            Forgot <a href="#">Password</a>    
+        </form>     
+    </div>
+      
+</body>    
+</html>

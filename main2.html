@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:4200/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Project1</title>
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+<style>/* You can add global styles to this file, and also import other style files */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsOEVBQThFIiwiZmlsZSI6InN0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG4iXX0= */</style><style>*[_ngcontent-hia-c16]{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+
+}
+
+header[_ngcontent-hia-c16]{
+    background-image: url(https://thumbs.dreamstime.com/b/criminal-law-criminal-law-gavel-word-criminal-law-sound-block-101426529.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul[_ngcontent-hia-c16]{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+
+ul[_ngcontent-hia-c16]   li[_ngcontent-hia-c16]{
+    display: inline-block;
+}
+
+ul[_ngcontent-hia-c16]   li[_ngcontent-hia-c16]   a[_ngcontent-hia-c16]{
+    text-decoration: none;
+    color:red;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul[_ngcontent-hia-c16]   li[_ngcontent-hia-c16]   a[_ngcontent-hia-c16]:hover{
+    background-color: blanchedalmond;
+    color:burlywood;
+}
+
+ul[_ngcontent-hia-c16]   li.active[_ngcontent-hia-c16]   a[_ngcontent-hia-c16]{
+    background-color: blanchedalmond;
+    color:burlywood;
+}
+
+.logo[_ngcontent-hia-c16]   img[_ngcontent-hia-c16]{
+    float:left;
+    width: 120px;
+    height: auto;
+}
+
+.main[_ngcontent-hia-c16]{
+    max-width: 1200px;
+}
+
+.title[_ngcontent-hia-c16]{
+    position:sticky;
+    top: 50%;
+    left: 50px;
+    transform: translated(-50%,-50%);
+
+}
+
+.title[_ngcontent-hia-c16]   h1[_ngcontent-hia-c16]{
+    color: white;
+    font-size: 50px;
+    position: center;
+
+}
+
+.button[_ngcontent-hia-c16]{
+    position:absolute;
+    top: 60%;
+    right: 980px;
+    transform: translated(-80%,-50%);
+    color:teal;
+
+}
+
+.btn[_ngcontent-hia-c16]{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: red;
+    text-decoration: none;
+    transition:0.6s ease;
+}
+
+.btn[_ngcontent-hia-c16]:hover{
+    background-color: #fff;
+    color:red;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxTQUFTO0lBQ1QsVUFBVTtJQUNWLDJCQUEyQjs7QUFFL0I7O0FBRUE7SUFDSSwrREFBK0Q7SUFDL0QsYUFBYTtJQUNiLHNCQUFzQjtJQUN0QiwyQkFBMkI7QUFDL0I7O0FBRUE7SUFDSSxZQUFZO0lBQ1oscUJBQXFCO0lBQ3JCLGdCQUFnQjs7QUFFcEI7O0FBRUE7SUFDSSxxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsV0FBVztJQUNYLGlCQUFpQjtJQUNqQiw2QkFBNkI7SUFDN0IscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksZ0NBQWdDO0lBQ2hDLGVBQWU7QUFDbkI7O0FBQ0E7SUFDSSxnQ0FBZ0M7SUFDaEMsZUFBZTtBQUNuQjs7QUFDQTtJQUNJLFVBQVU7SUFDVixZQUFZO0lBQ1osWUFBWTtBQUNoQjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGVBQWU7SUFDZixRQUFRO0lBQ1IsVUFBVTtJQUNWLGdDQUFnQzs7QUFFcEM7O0FBQ0E7SUFDSSxZQUFZO0lBQ1osZUFBZTtJQUNmLGdCQUFnQjs7QUFFcEI7O0FBQ0E7SUFDSSxpQkFBaUI7SUFDakIsUUFBUTtJQUNSLFlBQVk7SUFDWixnQ0FBZ0M7SUFDaEMsVUFBVTs7QUFFZDs7QUFDQTtJQUNJLHlCQUF5QjtJQUN6QixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLHFCQUFxQjtJQUNyQixvQkFBb0I7QUFDeEI7O0FBQ0E7SUFDSSxzQkFBc0I7SUFDdEIsVUFBVTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqe1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIGZvbnQtZmFtaWx5OiBDZW50dXJ5IEdvdGhpYztcclxuXHJcbn1cclxuXHJcbmhlYWRlcntcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChodHRwczovL3dhbGxwYXBlcmNhdmUuY29tL3dwL0w0WWFYNlkuanBnKTtcclxuICAgIGhlaWdodDogMTAwdmg7XHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG59XHJcblxyXG51bHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICAgIG1hcmdpbi10b3A6IDI1cHg7XHJcblxyXG59XHJcblxyXG51bCBsaXtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxufVxyXG5cclxudWwgbGkgYXtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGNvbG9yOmJsYWNrO1xyXG4gICAgcGFkZGluZzogNXB4IDIwcHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuICAgIHRyYW5zaXRpb246IDAuNnMgZWFzZTtcclxufVxyXG5cclxudWwgbGkgYTpob3ZlcntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYW5jaGVkYWxtb25kO1xyXG4gICAgY29sb3I6YnVybHl3b29kO1xyXG59XHJcbnVsIGxpLmFjdGl2ZSBhe1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICBjb2xvcjpidXJseXdvb2Q7XHJcbn1cclxuLmxvZ28gaW1ne1xyXG4gICAgZmxvYXQ6bGVmdDtcclxuICAgIHdpZHRoOiAxMjBweDtcclxuICAgIGhlaWdodDogYXV0bztcclxufVxyXG5cclxuLm1haW57XHJcbiAgICBtYXgtd2lkdGg6IDEyMDBweDtcclxufVxyXG5cclxuLnRpdGxle1xyXG4gICAgcG9zaXRpb246c3RpY2t5O1xyXG4gICAgdG9wOiA1MCU7XHJcbiAgICBsZWZ0OiA1MHB4O1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVkKC01MCUsLTUwJSk7XHJcblxyXG59XHJcbi50aXRsZSBoMXtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGZvbnQtc2l6ZTogNTBweDtcclxuICAgIHBvc2l0aW9uOiBjZW50ZXI7XHJcblxyXG59XHJcbi5idXR0b257XHJcbiAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgIHRvcDogNjAlO1xyXG4gICAgcmlnaHQ6IDk4MHB4O1xyXG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVkKC04MCUsLTUwJSk7XHJcbiAgICBjb2xvcjp0ZWFsO1xyXG5cclxufVxyXG4uYnRue1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2ZmZmZmZjtcclxuICAgIHBhZGRpbmc6IDEwcHggMzBweDtcclxuICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgdHJhbnNpdGlvbjowLjZzIGVhc2U7XHJcbn1cclxuLmJ0bjpob3ZlcntcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBjb2xvcjojMDAwO1xyXG59Il19 */</style></head>
+<body>
+  <app-root _nghost-hia-c16="" ng-version="10.0.14">
+<!-- saved from url=(0023)http://localhost:4200/# -->
+<html _ngcontent-hia-c16=""><head _ngcontent-hia-c16=""><title _ngcontent-hia-c16="">Women Safety (Be Safe)</title><link _ngcontent-hia-c16="" rel="Stylesheet" href="./Webpage 1_files/Kanuhura_aerial__57_-1600x1199-1101bbee-2c98-4d6b-8b01-4c10adad8f84.jpg"></head><body _ngcontent-hia-c16=""><header _ngcontent-hia-c16=""><div _ngcontent-hia-c16="" class="main"><div _ngcontent-hia-c16="" class="logo"><img _ngcontent-hia-c16="" src="./Webpage 1_files/103980619-stock-vector-eagle-hunting-eagle-with-negative-space-on-white-background-vector-illustration-.jpg"></div><ul _ngcontent-hia-c16=""><li _ngcontent-hia-c16="" class="active"><a _ngcontent-hia-c16="" href="http://localhost:4200/#">Home</a></li><li _ngcontent-hia-c16=""><a _ngcontent-hia-c16="" href="http://localhost:4200/#">Learn self Defence
+ </a></li><li _ngcontent-hia-c16=""><a _ngcontent-hia-c16="" href="http://localhost:4200/#">Gallery</a></li><li _ngcontent-hia-c16=""><a _ngcontent-hia-c16="" href="http://localhost:4200/#">Share My Location</a></li><li _ngcontent-hia-c16=""><a _ngcontent-hia-c16="" href="http://localhost:4200/#">Share Video</a></li></ul></div><div _ngcontent-hia-c16="" class="title"><h1 _ngcontent-hia-c16="">Women Safety</h1></div><div _ngcontent-hia-c16="" class="button"><a _ngcontent-hia-c16="" href="http://localhost:4200/#" class="btn">Call to police</a><a _ngcontent-hia-c16="" href="login.html" class="btn">Call to friend</a></div></header></body></html></app-root>
+<script src="./Webpage 1_files/runtime.js.download" defer=""></script><script src="./Webpage 1_files/polyfills.js.download" defer=""></script><script src="./Webpage 1_files/styles.js.download" defer=""></script><script src="./Webpage 1_files/vendor.js.download" defer=""></script><script src="./Webpage 1_files/main.js.download" defer=""></script>
+
+</body></html>
